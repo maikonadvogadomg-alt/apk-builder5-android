@@ -1,0 +1,16 @@
+{
+  "name": "apk-builder5",
+  "version": "2.0.5",
+  "private": true,
+  "scripts": {
+    "copy": "npx cap copy android",
+    "build": "cd android && ./gradlew assembleDebug --no-daemon"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/core": "6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.2"
+  }
+}
